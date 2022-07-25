@@ -1,0 +1,37 @@
+{
+  "name": "blog-list",
+  "version": "1.0.0",
+  "description": "nodejs backend with tests for blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "lint": "eslint .",
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand --forceExit"
+  },
+  "keywords": [
+    "fullstack-open-2020",
+    "nodejs",
+    "express",
+    "testing"
+  ],
+  "author": "m",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^6.8.0",
+    "jest": "^25.2.7",
+    "nodemon": "^2.0.2",
+    "supertest": "^6.2.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

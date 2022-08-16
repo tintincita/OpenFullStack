@@ -1,9 +1,11 @@
-POST  http://localhost:3003/api/blogs
+POST  http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1hbGNvbG0iLCJpZCI6IjYyZTBlZTY2YWZlMzM3ZjA5N2QyMDUwMCIsImlhdCI6MTY1ODkwOTQ4MSwiZXhwIjoxNjU4OTEzMDgxfQ.7BllfRfUoSoFGg8Co5bN6vlq6uoRFKnwG2ltXddiSyQ
 
 {
-    "title": "Test",
-    "author": "Test",
-    "url": "/test",
-    "likes": 0
+    "title": "Test 2 - bvetter",
+    "author": "Testauto qsdfqsdfCimitoki",
+    "url": "/test//qsdfqsdfqsdfqsdf",
+    "likes": 0,
+    "user": "62e0ee66afe337f097d20500"
 }

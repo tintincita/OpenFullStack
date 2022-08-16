@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVrYWkiLCJpZCI6IjYyZGZmMzlhYzI3NjkzMzZkYTMxMGY3MyIsImlhdCI6MTY1ODg0NDU2OH0.QpUaaakqKHtyx2UOkVfzpFkIChMFjEssG8PcNwkhWdw
+
+{
+    "content": "User id of jajajajaj",
+    "important": true,
+    "userId": "62dfe34bab159d09eccb7884"
+}
